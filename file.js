@@ -28,4 +28,6 @@ const fs = require("fs");
 
 // fs.unlinkSync("./copy.txt");
 
-console.log(fs.statSync("./text.txt"));
+// console.log(fs.statSync("./text.txt"));
+
+// fs.mkdirSync("my-docs");
