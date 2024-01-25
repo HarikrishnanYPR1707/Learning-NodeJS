@@ -10,12 +10,16 @@ const fs = require("fs");
 // const result = fs.readFileSync("./contacts.txt", "utf-8");
 // console.log(result);
 
-fs.readFile("./contacts.txt", "utf-8", (err, result) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(result);
-  }
-});
+// fs.readFile("./contacts.txt", "utf-8", (err, result) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(result);
+//   }
+// });
 
 // Asynchronous function will expect a Call Back
+
+// fs.appendFileSync("./text.txt", new Date().getDate().toLocaleString());
+
+fs.appendFileSync("./text.txt", `${Date.now()}Hey There \n`);
