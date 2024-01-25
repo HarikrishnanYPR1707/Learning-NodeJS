@@ -26,4 +26,6 @@ const fs = require("fs");
 
 // fs.cpSync("./text.txt", "./copy.txt", {});
 
-fs.unlinkSync("./copy.txt");
+// fs.unlinkSync("./copy.txt");
+
+console.log(fs.statSync("./text.txt"));
