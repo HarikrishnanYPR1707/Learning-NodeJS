@@ -31,3 +31,5 @@ const fs = require("fs");
 // console.log(fs.statSync("./text.txt"));
 
 // fs.mkdirSync("my-docs");
+
+fs.mkdirSync("sampledoc/a/b", { recursive: true });
