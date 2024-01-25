@@ -22,4 +22,6 @@ const fs = require("fs");
 
 // fs.appendFileSync("./text.txt", new Date().getDate().toLocaleString());
 
-fs.appendFileSync("./text.txt", `${Date.now()}Hey There \n`);
+// fs.appendFileSync("./text.txt", `${Date.now()}Hey There \n`);
+
+fs.cpSync("./text.txt", "./copy.txt", {});
