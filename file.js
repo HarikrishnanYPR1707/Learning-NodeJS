@@ -17,3 +17,5 @@ fs.readFile("./contacts.txt", "utf-8", (err, result) => {
     console.log(result);
   }
 });
+
+// Asynchronous function will expect a Call Back
