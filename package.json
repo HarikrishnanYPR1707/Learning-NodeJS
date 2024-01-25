@@ -1,0 +1,12 @@
+{
+  "name": "learningnodejs",
+  "version": "1.0.0",
+  "description": "Learning NodeJS form Piyush Garg",
+  "main": "hello.js",
+  "scripts": {
+    "start": "node hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
