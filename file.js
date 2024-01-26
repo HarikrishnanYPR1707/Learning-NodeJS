@@ -33,3 +33,17 @@ const fs = require("fs");
 // fs.mkdirSync("my-docs");
 
 fs.mkdirSync("sampledoc/a/b", { recursive: true });
+
+
+
+// Blocking and Non-Blocking func./Request 
+
+
+// Blocking...
+// console.log("1");
+
+// const result = fs.readFileSync("./contacts.txt", "utf-8");
+// console.log(result);
+// console.log("2");
+
+
