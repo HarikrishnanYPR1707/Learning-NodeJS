@@ -16,7 +16,9 @@ const myServer = http.createServer((req, res) => {
         // alksjdflkjalksjdflkj
         break;
       case "/about":
-        res.end("Hii, I am Harikrishnan Prasannakumar");
+        res.end(
+          `Hii ${myUrl.query.firstName}, I am Harikrishnan Prasannakumar`
+        );
         break;
       case "/contact-me":
         res.end("Contact me at hari@example.com");
