@@ -22,5 +22,3 @@ const myServer = http.createServer((req, res) => {
 });
 
 myServer.listen(8000, () => console.log("Sever Started!!"));
-
-// lkjasdf
