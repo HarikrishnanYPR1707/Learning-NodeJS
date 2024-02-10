@@ -13,7 +13,6 @@ const myServer = http.createServer((req, res) => {
     switch (myUrl.pathname) {
       case "/":
         res.end("Home Page");
-        // alksjdflkjalksjdflkj
         break;
       case "/about":
         res.end(
